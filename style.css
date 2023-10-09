@@ -1,0 +1,1068 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #eee;
+
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: blueviolet;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+
+}
+
+label.logo {
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 60px;
+    color: rgb(255, 255, 255);
+    padding: 0 60px;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 30px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 12px;
+
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 7px 9px;
+    border-radius: 18px;
+
+}
+
+nav ul  a.active,
+nav ul a:hover {
+    background-color: rgb(255, 255, 255);
+    transition: .1s;
+    color: blueviolet;
+
+}
+
+label.check {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    float: right;
+    padding: 0px 40px;
+    line-height: 60px;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 25px;
+        padding-left: 30px;
+
+    }
+
+    nav ul li a {
+        font-size: 12px;
+    }
+}
+
+
+
+.link1 {
+    /* text-decoration: none; */
+    transition: transform 03s;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.link1:hover{
+    transform: scale(2);
+    /* background-color: blueviolet; */
+}
+
+.link11 {
+    /* text-decoration: none; */
+    transition: transform 03s;
+    text-decoration: none;
+    /* color: white; */
+}
+
+.link11:hover{
+    transform: scale(2);
+}
+
+.icons {
+    /* display: flex; */
+}
+
+.icons img {
+    width: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px black;
+    transition: transform 0.3s;
+    margin-left: 5px;
+}
+
+.icons img:hover{
+    transform: scale(1.2);
+    border-radius: 20px;
+}
+
+.sectionfirst {
+    color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    ;
+    align-items: center;
+    background-color: #eee;
+}
+
+.sectionfirst>div {
+    width: 40%;
+
+}
+
+.secright img {
+    width: 95%;
+    margin: 80px 0px;
+    transition: transform 0.3s;
+}
+
+.secright img:hover{
+    transform: scale(1.2);
+}
+
+.secleft {
+    font-size: 2.7rem;
+
+
+}
+
+.secrights2 {
+    font-size: 1rem;
+}
+
+.purple {
+    color: blueviolet;
+    font-size: 4rem;
+
+}
+
+#element1 {
+    color: blueviolet;
+    font-size: 3.4rem;
+}
+
+#element2 {
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+#element3 {
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+@keyframes slide {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 27%;
+    }
+}
+
+.neon {
+    border: 0;
+    background-color: #2F2143;
+    width: 0;
+    height: 1px;
+    border-radius: 9px;
+    float: right;
+    animation: slide 2s linear forwards;
+
+}
+
+
+.about {
+    text-align: right;
+    margin-right: 50px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #2F2143
+
+}
+
+.sectionsecond {
+    color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0px;
+    align-items: center;
+    height: 80vh;
+    /* background-color: rgb(23, 14, 14); */
+}
+
+.sectionsecond>div {
+    width: 40%;
+
+}
+
+.secright2 {
+    width: 100%;
+}
+
+.secleft2 {
+    font-size: larger;
+}
+
+.slide {
+    width: 100%;
+    height: 600px;
+    border-radius: 1000px;
+    transition: transform 0.3s;
+}
+
+.slide:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+.purple1 {
+    color: rgb(147, 71, 218);
+}
+
+
+@keyframes slide1 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 27%;
+    }
+}
+
+.neon1 {
+    border: 0;
+    background-color: #2F2143;
+    width: 0;
+    height: 1px;
+    border-radius: 9px;
+    float: left;
+    animation: slide1 2s linear forwards;
+
+}
+
+
+.about1 {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 3rem;
+    color: #2F2143
+}
+
+.sectionthird {
+    color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px !important;
+    align-items: center;
+    height: 60vh;margin: auto;
+    width: 80%;
+    /* background-color: rgb(23, 14, 14); */
+}
+
+.sectionthird>div {
+    width: 22%;
+
+}
+
+.sectionthird img,
+.sectionthirdone img {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.fourthone img,
+.fourthtwo img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.seccenter3 img,
+.secright3 img,
+.secleft3 img,
+.secleft31 img,
+.secright31 img,
+.secleft4 img,
+.seclefts4 img,
+.secright4 img,
+.secrights4 img,
+.seccenter4 img {
+    border-radius: 30px;
+}
+
+.secleft3,
+.seccenter3,
+.secright3,
+.secleft31,
+.secright3,
+.seclefts4,
+.secleft4,
+.seccenter4,
+.secright4,
+.secleft4,
+.seccenter4,
+.secright4,
+.secrights4 {
+
+    transition: transform 0.3s;
+}
+
+.secleft3:hover,
+.seccenter3:hover,
+.secright3:hover,
+.secleft31:hover,
+.secright3:hover,
+.seclefts4:hover,
+.secleft4:hover,
+.seccenter4:hover,
+.secright4:hover,
+.secleft4:hover,
+.seccenter4:hover,
+.secright4:hover,
+.secrights4:hover{
+    transform: scale(1.02);
+    overflow: hidden;
+}
+
+.secleft3,
+.secleft31 {
+    align-items: center;
+    border: 1px solid rgb(113, 61, 255);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.seccenter3 {
+    align-items: center;
+    border: 1px solid rgb(113, 61, 255);
+    border-radius: 25px;
+    margin: 0px 90px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.secright3,
+.secright31 {
+    align-items: center;
+    border: 1px solid rgb(113, 61, 255);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.head {
+    color: blueviolet;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.head1 {
+    color: blueviolet;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.sectionthirdone {
+    color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: center;
+    margin: 110px 0px;
+    align-items: center;
+    height: 40vh;
+    /* background-color: rgb(23, 14, 14); */
+}
+
+.sectionthirdone>div {
+    width: 22%;
+
+}
+
+.secright31 {
+    margin-left: 100px;
+}
+
+.secleft31 {
+    margin-right: 100px;
+}
+
+@keyframes slide2 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 28%;
+    }
+}
+
+.neon2 {
+    border: 0;
+    background-color: #2F2143;
+    width: 0;
+    height: 1px;
+    border-radius: 9px;
+    float: right;
+    animation: slide2 3s linear forwards;
+
+}
+
+
+.about2 {
+    text-align: right;
+    margin-right: 50px;
+    font-size: 3rem;
+    color: #2F2143
+}
+
+.fourthone {
+    color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+    height: 30vh;
+    /* background-color: rgb(23, 14, 14); */
+}
+
+
+.fourthone>div {
+    width: 22%;
+
+}
+
+.fourthtwo {
+    color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+    align-items: center;
+    height: 30vh;
+    /* background-color: rgb(23, 14, 14); */
+}
+
+
+.fourthtwo>div {
+    width: 22%;
+
+
+}
+
+.sectionfourth {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.sectionfourth>div {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+    height: 45vh;
+}
+
+.secleft4,
+.seclefts4 {
+    align-items: center;
+    border: 1px solid rgb(113, 61, 255);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.seccenter4 {
+    align-items: center;
+    border: 1px solid rgb(113, 61, 255);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.secright4,
+.secrights4 {
+    align-items: center;
+    border: 1px solid rgb(113, 61, 255);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+@keyframes slide3 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 37%;
+    }
+}
+
+.neon3 {
+    border: 0;
+    background-color: #2F2143;
+    width: 0;
+    height: 2px;
+    border-radius: 9px;
+    float: left;
+    animation: slide3 3s linear forwards;
+
+}
+
+
+.about3 {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 3rem;
+    color: #2F2143
+
+}
+
+footer{
+    height:50vh;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: aliceblue;
+    padding: 50px 0px 30px;
+    /* border-top-right-radius: 25px; */
+    /* border-top-left-radius: 125px; */
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.logo{
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.sectionfive{
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.colone, .coltwo, .colthree, .colfour{
+    flex-basis: 20%;
+    /* padding: 10px; */
+    /* margin-bottom: 60px; */
+}
+
+.coltwo h3, .colthree h3, .colfour h3{
+    /* width: fit-content; */
+    margin-bottom: 20px;
+    position:  relative;
+}
+
+.emailid{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.colthree ul li{
+    text-decoration: none;
+    /* color: white; */
+    margin-bottom: 6px;
+}
+
+.colthree ul li a{
+    color: white;
+    padding: 2px;
+}
+
+.colthree ul li a:hover{
+    background-color: blueviolet;
+    border-radius: 3px;
+}
+
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    /* margin: 50px; */
+}
+
+form .far{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+form input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #ccc;
+    margin: 0px 10px;
+
+}
+
+@media (max-width: 780px) {
+    label.check {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: blueviolet;
+        text-align: center;
+        top: 60px;
+        left: 0;
+        transition: all .5s;
+
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a.active,
+    a:hover {
+        background: none;
+        color: rgb(255, 255, 255);
+        border: 1px solid white;
+    }
+
+    .md-block {
+        display: block;
+
+    }
+
+    .md-none {
+        display: none !important; 
+    }
+
+    .sectionfirst .secright{
+        display: none;
+    }
+
+    .sectionfirst .secleft{
+     
+        width: 100%;
+        font-size: 2.1rem;
+        margin: 80px 0px;
+        /* display: block;
+        align-items: center;
+        justify-content: center; */
+    }
+
+    .sectionfirst .secleft .purple{
+        font-size: 2.5rem;
+    }
+
+    .sectionfive, .sectionfirst .secleft{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+
+    }
+    #element1{
+        font-size: 2.8rem;
+        /* margin-top: 0px; */
+    }
+
+    .sectionfirst .icons{
+        margin-top: 9px;
+    }
+
+    #section1{
+        font-size: 25px;
+        margin-right: 5px;
+    }
+
+    #section2{
+        font-size: 25px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+
+    @keyframes slide {
+        0% {
+            width: 0%;
+        }
+    
+        100% {
+            width: 33%;
+        }
+    }
+    
+    .neon {
+        border: 0;
+        background-color: #2F2143;
+        width: 0;
+        height: 2px;
+        border-radius: 9px;
+        float: right;
+        animation: slide 3s linear forwards;
+    
+    }
+
+    @keyframes slide1 {
+        0% {
+            width: 0%;
+        }
+    
+        100% {
+            width: 30%;
+        }
+    }
+    
+    .neon1 {
+        border: 0;
+        background-color: #2F2143;
+        width: 0;
+        height: 2px;
+        border-radius: 9px;
+        float: left;
+        animation: slide 3s linear forwards;
+    
+    }
+
+    .sectionsecond .secright2{
+
+        display: none;
+
+    }
+
+    .sectionsecond{
+            margin: 20px 0px;
+    }
+
+    .sectionsecond .secleft2{
+        /* margin: 160px 0px; */
+        width: 80%;
+        padding: 0;
+
+    }
+
+    .sectionthird{
+        height: 30vh;
+    }
+
+    .sectionthirdone{
+        height: 10vh;
+    }
+
+    .sectionthird, .sectionthirdone {
+        color: rgb(14, 14, 14);
+        display: flex;
+        justify-content: center;
+        margin-top: 0px !important;
+        align-items: center;
+        /* height: 30vh; */
+        margin: auto;
+        width: 60% !;
+
+        /* background-color: rgb(23, 14, 14); */
+    }
+
+
+    .sectionthird div, .sectionthirdone div{
+        border-radius: 15px;
+    }
+
+    .sectionthird img, .sectionthirdone img {
+
+        width: 100%;
+        height: 90px;
+        border-radius: 15px;
+        padding: 5px;
+
+    }
+    
+    .sectionthird>div {
+        width: 20%;
+    
+    }
+    
+    
+    /* .sectionthirdone img {
+        width: 100%;
+        height: 120px;
+        border-radius: 5px;
+        padding: 10px;
+    
+    } */
+
+    .secleft3,
+.secleft31 {
+    align-items: center;
+    border: 1px solid rgb(113, 61, 255);
+    border-radius: 25px;
+    display: flex;
+    /* flex-direction: column; */
+    padding: 10px;
+
+}
+
+.secleft3 img, .seccenter3 img, .secright3 img{
+    width: auto;
+}
+
+.sectionthird .head, .sectionthirdone .head{
+    font-size: 12px;
+}
+
+.sectionthirdone{
+    width: 80%;
+    margin: auto;
+    margin-top: 0  !important;
+}
+
+
+.seccenter3 {
+    align-items: center;
+    border: 1px solid rgb(113, 61, 255);
+    border-radius: 25px;
+    margin: 0px 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.secright3,
+.secright31 {
+    align-items: center;
+    border: 1px solid rgb(113, 61, 255);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.secleft31, .secright31{
+    margin: 0;
+    margin-right: 25px !important;
+}
+
+
+@keyframes slide3 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 45%;
+    }
+}
+
+.neon3 {
+    border: 0;
+    background-color: #2F2143;
+    width: 0;
+    height: 2px;
+    border-radius: 9px;
+    float: left;
+    margin-bottom: 0;
+    animation: slide3 3s linear forwards;
+
+}
+
+
+.about3 {
+    text-align: left;
+    margin-left: 5px;
+    font-size: 25px;
+    color: #2F2143;
+    margin-top: 66px;
+}
+
+@keyframes slide2 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 32%;
+    }
+}
+
+.neon2 {
+    border: 0;
+    background-color: #2F2143;
+    width: 0;
+    height: 2px;
+    border-radius: 9px;
+    float: right;
+    margin-bottom: 0;
+    animation: slide2 3s linear forwards;
+
+}
+
+
+.about2 {
+    text-align: right;
+    margin-right: 5px;
+    font-size: 25px;
+    color: #2F2143;
+    margin-top: 60px;
+}
+
+
+.sectionsecond .secleft21{
+    display: none;
+
+}
+
+.sectionfourth{
+    width: 90%;
+    margin: auto;
+
+}
+
+.sectionfourth>div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+    height: 13vh;
+}
+
+.fourthone .head1, .fourthtwo .head1{
+    font-size: 10px;
+}
+
+.fourthone img,
+.fourthtwo img {
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.fourthone div, .fourthtwo div{
+
+    border-radius: 10px;
+
+}
+
+.sectionsecond .secrights2, .sectionsecond .secleft2{
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    /* margin-top: 0px !important; */
+    font-size: 14px;
+}
+
+#element3,#element2{
+    font-size: 30px;
+    margin-top: 0;
+}
+
+    footer{
+        height:100%;
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        background: linear-gradient(to right, #00093c, #2d0b00);
+        color: aliceblue;
+        padding: 50px 0px 30px;
+        /* border-top-right-radius: 25px; */
+        /* border-top-left-radius: 125px; */
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .colone, .coltwo, .colthree, .colfour{
+        /* flex-basis: 20%; */
+        /* padding: 10px; */
+        margin-bottom: 30px;
+    }
+    .coltwo h3, .colthree h3, .colfour h3{
+        /* width: fit-conten; */
+        margin-bottom: 20px;
+        position:  relative;
+        float: center;
+    }
+    
+    .emailid{
+        /* width: fit-content; */
+        border-bottom: 1px solid #ccc;
+        margin: auto !important;
+        cursor: pointer;
+        margin: 8px 0px ;
+    }
+
+    form{
+        max-width: 80%;
+        margin: auto;
+    }
+
+    footer .inform{
+        max-width: 80%;
+        margin: auto;
+    }
+
+    /* footer .logo{
+        
+        height: auto;
+        margin: auto;
+    } */
+}
